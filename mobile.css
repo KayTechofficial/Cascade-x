@@ -1,0 +1,108 @@
+
+
+#main-nav .social{
+    display: none;
+}
+
+#main-nav .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+#service{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#service .web-section, #service .market-section, #service .logo-section{
+    border-bottom: 1px solid #081c15;
+    border-right: none;
+    margin-bottom:1rem;
+    padding-bottom:1rem;
+}
+
+.who{
+    grid-template-columns: 1fr;
+}
+.who .img{
+    margin-right: 0;
+}
+.who .info-right{
+    text-align: center;
+}
+.who .info-right{
+    padding: 0 3rem;
+}
+.line{
+    display: none;
+}
+.box .head .head1{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.box .container{
+    grid-template-columns: 1fr;
+}
+.box .item{
+    margin-bottom: 2rem;
+}
+
+.pricing #price-head{
+    font-size: 2rem;
+}
+.pricing .pricing-content{
+    grid-template-columns: 1fr;
+}
+
+.starter, .business, .commerce, .multi, .commerce-pro{
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.why .why-box{
+    grid-template-columns: 1fr;
+}
+.why .why-box2{
+    grid-template-columns: 1fr;
+}
+.why .why-box .box1, .why .why-box .box2, .why .why-box .box3, .why .why-box .box4{
+    margin-bottom: 2rem;
+}
+.why .why-box2 .box5, .why .why-box2 .box6, .why .why-box2 .box7{
+    margin-bottom: 2rem;
+}
+
+.request-app{
+    grid-template-columns: 1fr;
+}
+.request-app .left{
+    margin-bottom: 2rem;
+    margin-left: 0;
+}
+.partners .names .name-top{
+    grid-template-columns: 1fr;
+    height: 20em;
+}
+.partners .names .name-bottom{
+    grid-template-columns: 1fr;
+    height: 25em;
+}
+.partners .names #one, .partners .names #two, .partners .names #four, .partners .names #five{
+    border-right: none;
+}
+.partners .names .name-top{
+    border-bottom: none;
+}
+.foot-wrap{
+    grid-template-columns: 1fr;
+}
+.foot-wrap .about{
+    margin-bottom: 2rem;
+}
+.foot-wrap .address{
+    margin-bottom: 2rem;
+}
+.foot-wrap .dash{
+    display: none;
+}
